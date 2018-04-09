@@ -19,3 +19,13 @@ def buscar_hijos(lista,valor):
 
 a=Nodo_n(2500,[Nodo_n(50000),Nodo_n(250000),Nodo_n(2500000)])
 buscar(a,2500)
+
+
+
+
+salida = []
+with open('archivo.txt', 'r') as f:
+    lineas = [linea.split() for linea in f]
+
+for linea in lineas:
+    print(linea)
